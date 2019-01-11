@@ -1,5 +1,5 @@
-images/
-.ipynb_checkpoints/
+
+
 closed-form-matting/
 *.idea/
 test/
@@ -9,6 +9,6 @@ Dekel_*
 *.bmp
 *.ipynb
 *.npc
-*.md
+
 *.png
 *.txt

@@ -1,3 +1,17 @@
+## 关于此项目说明
+原项目地址为[rohitrango/automatic-watermark-detection: Project for Digital Image Processing](https://github.com/rohitrango/automatic-watermark-detection)
+
+因为有需求需要使用此项目解决视频去水印的问题，所以把此项目的源码大致看了。感觉写的不怎么好
+- 速度方面，tf版的梯度下降实在是太慢了，感觉是代码没写好的问题
+- 水印提取，图片变化要大一点才好，相似对提取效果不好
+- 水印匹配，这个代码实现出来的，我实际用的匹配得不怎么准。比如视频中抖音水印会变化，对于旋转不变性和尺度不变性有很大的优化空间
+
+关于上面那些短板，我针对视频识别水印都做了很大优化，对一个视频的识别，速度在ms级别，可以浏览我的项目：[待添加]()
+
+这个项目很简单，只是调了bug发上来。研究之后的成果，我后续会发上来，带有文档说明。
+
+以下为原版readme
+---
 ## Automatic watermark detection and removal
 This was a project that was built as part of project for CS663 (Digital Image Processing).
 This is a crude Python implementation of the paper "On The Effectiveness Of Visible Watermarks", Tali Dekel, Michael Rubinstein, Ce Liu and William T. Freeman,
